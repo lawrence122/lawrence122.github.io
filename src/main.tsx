@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { createBrowserRouter, RouterProvider, Outlet, Link } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './views/HomePage.tsx'
 
 // Define your routes
