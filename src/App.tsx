@@ -1,10 +1,10 @@
 import './App.css'
-import Header from './components/layout/header'
-import HomePage from './views/homePage'
+import Header from './components/layout/Header'
+import HomePage from './views/HomePage'
 
 function App() {
   return (
-    <div className='w-full h-full' >
+    <div className='max-w-full h-full' >
       <Header />
       <HomePage />
     </div>
